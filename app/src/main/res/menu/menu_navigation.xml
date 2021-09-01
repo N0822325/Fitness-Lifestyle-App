@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:id="@+id/NavHome"
+        android:icon="@drawable/ic_baseline_home_24"
+        android:onClick="loadHomeFragment"
+        android:title="Home" />
+    <item
+        android:id="@+id/NavProfile"
+        android:icon="@drawable/ic_baseline_person_24"
+        android:onClick="loadProfileFragment"
+        android:title="Profile" />
+    <item
+        android:id="@+id/NavCommunity"
+        android:icon="@drawable/ic_baseline_group_12"
+        android:onClick="loadCommunityFragment"
+        android:title="Community" />
+    <item
+        android:id="@+id/NavMeals"
+        android:icon="@drawable/ic_baseline_dinner_dining_24"
+        android:onClick="loadMealFragment"
+        android:title="Meals" />
+    <item
+        android:id="@+id/NavShopping"
+        android:icon="@drawable/ic_baseline_shopping_basket_24"
+        android:onClick="loadShoppingFragment"
+        android:title="Shopping" />
+
+    <item
+        android:id="@+id/NavWorkout"
+        android:icon="@drawable/ic_baseline_arrow_upward_24"
+        android:onClick="loadWorkoutFragment"
+        android:title="Workouts" />
+
+    <item
+        android:id="@+id/NavWorkoutPlan"
+        android:icon="@drawable/ic_baseline_note_alt_24"
+        android:onClick="loadWorkoutPlanFragment"
+        android:title="Workout Plan" />
+
+    <item
+        android:id="@+id/Map"
+        android:icon="@drawable/ic_baseline_directions_run_24"
+        android:onClick="loadMapFragment"
+        android:title="Track Run" />
+
+    <item
+        android:id="@+id/CommunitMaps"
+        android:icon="@drawable/ic_baseline_directions_24"
+        android:onClick="loadCommunityMapFragment"
+        android:title="Community Routes" />
+
+    <item
+        android:id="@+id/NavLogout"
+        android:icon="@drawable/abc_vector_test"
+        android:onClick="logout"
+        android:title="Logout"/>
+
+
+</menu>

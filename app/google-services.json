@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "121608154791",
+    "project_id": "ntu-mpa",
+    "storage_bucket": "ntu-mpa.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:121608154791:android:af0603d1d061ed932e3582",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "121608154791-7s70sm5dcu2mj5bomas8ca34f3olacag.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDKERjm4hjmY9iJhCWNFkYaX8zWb1y1ytU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "121608154791-7s70sm5dcu2mj5bomas8ca34f3olacag.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
